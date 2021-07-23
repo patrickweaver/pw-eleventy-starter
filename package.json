@@ -1,0 +1,26 @@
+{
+  "name": "pw-eleventy-starter",
+  "version": "0.0.1",
+  "description": "A starter template for Eleventy Projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "rm -rf dist && npx @11ty/eleventy --serve --port=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickweaver/pw-eleventy-starter.git"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Patrick Weaver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickweaver/pw-eleventy-starter/issues"
+  },
+  "homepage": "https://github.com/patrickweaver/pw-eleventy-starter#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
