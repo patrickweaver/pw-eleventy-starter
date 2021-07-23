@@ -4,6 +4,8 @@ module.exports = function (eleventyConfig) {
     strict_filters: true,
   });
 
+  eleventyConfig.addPassthroughCopy("build/*.js");
+
   return {
     dir: {
       input: "build",
