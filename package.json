@@ -12,7 +12,7 @@
     "url": "git+https://github.com/patrickweaver/pw-eleventy-starter.git"
   },
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "author": "Patrick Weaver",
   "license": "MIT",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/patrickweaver/pw-eleventy-starter#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^1.0.2"
   }
 }
